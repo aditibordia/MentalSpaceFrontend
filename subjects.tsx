@@ -1,29 +1,20 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
+// import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import {
     Button,
     Center,
     Checkbox,
-    HStack,
-    Text,
     View,
     Heading,
     AddIcon,
     DeleteIcon,
-    TextArea,
     Select,
     CheckIcon,
     Box,
-    VStack,
-    Input,
   } from 'native-base';
-  import { useQuery, useQueryClient } from 'react-query';
+  // import { useQuery, useQueryClient } from 'react-query';
   import React, { ClassType, Component, useEffect, useState} from 'react';
   import { Alert, StyleSheet,  TextInput } from 'react-native';
- import { LoginStackList } from '../components/login_stack'
- import { SideBarList } from '../components/main_stack'
  import { Table, TableWrapper, Row, Rows, Col, Cell } from 'react-native-table-component'
- import { apiUrl } from '../constants';
- import { SelectBox } from 'react-native-multi-selectbox';
  
 
   const styles = StyleSheet.create({

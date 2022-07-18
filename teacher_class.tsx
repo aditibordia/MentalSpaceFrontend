@@ -1,30 +1,19 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
+// import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import {
-
-    Button,
-    Center,
-    Checkbox,
-    HStack,
-    Text,
-    View,
-    Heading,
-    AddIcon,
-    DeleteIcon,
-    Select,
-    CheckIcon,
-    Box,
-    VStack,
-    Input,
-  } from 'native-base';
-  import { useQuery } from 'react-query';
-  import React, { ClassType, Component, useEffect, useState} from 'react';
-  import { Alert, StyleSheet } from 'react-native';
- import { LoginStackList } from '../components/login_stack'
- import { SideBarList } from '../components/main_stack'
- import { Table, TableWrapper, Row, Rows, Col, Cell } from 'react-native-table-component'
- import { apiUrl } from '../constants';
- import { SelectBox } from 'react-native-multi-selectbox';
-
+  Button,
+  Center,
+  Checkbox,
+  View,
+  Heading,
+  AddIcon,
+  DeleteIcon,
+  Select,
+  CheckIcon,
+  Box,
+} from 'native-base';
+import React, { ClassType, Component, useEffect, useState} from 'react';
+import { Alert, StyleSheet} from 'react-native';
+import { Table, TableWrapper, Row, Cell } from 'react-native-table-component'
  
  const styles = StyleSheet.create({
   text: { textAlign: 'center' },
